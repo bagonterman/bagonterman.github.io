@@ -1,0 +1,99 @@
+body{
+    background:white;
+  }
+  #shovel{
+    position:fixed;
+    width:220px;
+    margin-top:3px;
+    margin-left:60px;
+    z-index: 4;
+    /* animation-name: shovel;
+    animation-duration: 1s;
+    animation-delay: 2s; */
+    /* animation-direction: alternate-reverse; */
+  }
+  #E{
+    position:fixed;
+    width:50px;
+    margin-top:30px;
+    margin-left:16px;
+    z-index: 3;
+  }
+  #L{
+    position:fixed;
+    width:50px;
+    margin-top:30px;
+    margin-left:104px;
+    z-index: 3;
+  }
+  #LOGO{
+    width:200px;
+  }
+  #flourish{
+    position:fixed;
+    width:200px;
+    z-index: -1;
+    margin-top:136px;
+    margin-left:2px;
+  }
+  #logobackground{
+    position:fixed;
+    width:210px;
+    margin-top:-36px;
+    margin-left:-22px;
+    z-index: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 150px;
+  }
+  @keyframes shovel {
+    20%   {  top:-20px;}
+    100%  {  top:0px;}
+  }
+  .shovelClick{
+    /* position:fixed;
+    width:80px;
+    margin-top:3px;
+    margin-left:60px;
+    z-index: 4; */
+    animation-name: shovel;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    /* animation-direction:reverse; */
+  }
+  .shovelClick-active {
+    animation-name: shovel;
+    animation-duration: 1s;
+    animation-delay: 1s;
+  }
+  .centered {
+    position: fixed; /* or absolute */
+    top: 10%;
+    left: 50%;
+  }
+  .box{
+    position:fixed;
+    background-color: #218D9B;
+    height: 100px;
+    width: 100px;
+    z-index: 999;
+  }
+  #test{
+    background-color: #218D9B;
+    height: 100px;
+    width: 100px;
+
+  }
+  
+  .transform {
+    -webkit-transition: all 2s ease;  
+    -moz-transition: all 2s ease;  
+    -o-transition: all 2s ease;  
+    -ms-transition: all 2s ease;  
+    transition: all 2s ease;
+  }
+  
+  .transform-active {
+    background-color: #45CEE0;
+    height: 200px;
+    width: 200px;
+  }
